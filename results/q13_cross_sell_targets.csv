@@ -1,0 +1,41 @@
+region,rank_in_region,client_id,account_id,district_name,offer,avg_balance_6m,avg_income_6m,tenure_months,propensity_index,total_eligible
+Prague,1,3134,2598,Hl.m. Praha,loan,81868,100426,33,5.63,534
+Prague,2,441,363,Hl.m. Praha,loan,92720,77652,55,4.99,534
+Prague,3,3319,2749,Hl.m. Praha,loan,99694,63054,55,4.58,534
+Prague,4,4172,3450,Hl.m. Praha,card + loan,76433,75831,24,4.57,534
+Prague,5,2013,1660,Hl.m. Praha,loan,78825,67202,39,4.29,534
+central Bohemia,1,353,291,Melnik,card + loan,73770,84783,18,4.85,534
+central Bohemia,2,3430,2838,Beroun,card + loan,93715,64691,68,4.52,534
+central Bohemia,3,603,501,Rakovnik,card,85686,66883,38,4.42,534
+central Bohemia,4,2374,1953,Nymburk,loan,74021,72711,19,4.39,534
+central Bohemia,5,4974,4131,Kolin,loan,65439,72793,52,4.21,534
+east Bohemia,1,389,319,Pardubice,card,82133,94108,38,5.39,534
+east Bohemia,2,3501,2897,Trutnov,loan,77121,88768,14,5.08,534
+east Bohemia,3,5858,4851,Usti nad Orlici,card,59725,88455,34,4.69,534
+east Bohemia,4,1408,1169,Semily,card + loan,87211,72132,57,4.66,534
+east Bohemia,5,5152,4276,Hradec Kralove,card + loan,85733,70894,53,4.58,534
+north Bohemia,1,5347,4434,Usti nad Labem,card + loan,78079,86277,48,5.00,534
+north Bohemia,2,4246,3516,Liberec,loan,68825,79204,15,4.53,534
+north Bohemia,3,4428,3674,Louny,card,84023,69691,69,4.50,534
+north Bohemia,4,3824,3163,Usti nad Labem,loan,57524,81906,19,4.39,534
+north Bohemia,5,1370,1139,Chomutov,card + loan,71033,72353,35,4.31,534
+north Moravia,1,4113,3402,Sumperk,card + loan,88242,81618,45,5.04,534
+north Moravia,2,774,645,Karvina,card + loan,82359,73834,16,4.62,534
+north Moravia,3,1619,1338,Ostrava - mesto,card + loan,89061,69866,71,4.61,534
+north Moravia,4,5281,4383,Opava,card + loan,63932,79834,25,4.45,534
+north Moravia,5,10269,8316,Karvina,card,90420,60733,54,4.29,534
+south Bohemia,1,4477,3713,Ceske Budejovice,card + loan,97429,68751,66,4.75,534
+south Bohemia,2,4067,3364,Tabor,card + loan,81816,73971,48,4.61,534
+south Bohemia,3,1279,1066,Jindrichuv Hradec,card + loan,72042,76825,27,4.51,534
+south Bohemia,4,1705,1407,Prachatice,card,77670,70670,20,4.39,534
+south Bohemia,5,10912,8856,Cesky Krumlov,loan,110583,51633,48,4.38,534
+south Moravia,1,1556,1286,Zdar nad Sazavou,card + loan,79687,88800,61,5.13,534
+south Moravia,2,3387,2803,Jihlava,loan,86399,73652,36,4.70,534
+south Moravia,3,6001,4969,Prostejov,card,72474,76617,28,4.51,534
+south Moravia,4,2368,1948,Zlin,card + loan,79207,72504,32,4.50,534
+south Moravia,5,7594,6289,Zlin,card,79992,65643,44,4.25,534
+west Bohemia,1,4547,3771,Domazlice,card + loan,89974,77291,66,4.92,534
+west Bohemia,2,2719,2245,Rokycany,card,95187,72552,69,4.85,534
+west Bohemia,3,1505,1247,Klatovy,card,75099,73138,66,4.43,534
+west Bohemia,4,1236,1029,Plzen - mesto,card + loan,78033,69383,30,4.35,534
+west Bohemia,5,2762,2282,Rokycany,loan,101680,52928,63,4.24,534

@@ -1,0 +1,35 @@
+dimension,segment,n_loans,n_default,default_rate_pct,ci95_low_pct,ci95_high_pct,lift_vs_portfolio,vs_portfolio
+Portfolio,All loans,682,76,11.1,9.0,13.7,1.00,not significant
+Borrower age,1. <30,208,23,11.1,7.5,16.0,0.99,not significant
+Borrower age,2. 30-39,170,20,11.8,7.7,17.5,1.06,not significant
+Borrower age,3. 40-49,148,15,10.1,6.2,16.0,0.91,not significant
+Borrower age,4. 50+,156,18,11.5,7.4,17.5,1.04,not significant
+Card held,classic,28,0,0.0,0.0,12.1,0.00,not significant
+Card held,gold,3,0,0.0,0.0,56.2,0.00,not significant
+Card held,junior,5,0,0.0,0.0,43.4,0.00,not significant
+Card held,no card at approval,646,76,11.8,9.5,14.5,1.06,not significant
+Gender,F,348,41,11.8,8.8,15.6,1.06,not significant
+Gender,M,334,35,10.5,7.6,14.2,0.94,not significant
+Joint account,false,537,76,14.2,11.5,17.4,1.27,significantly higher
+Joint account,true,145,0,0.0,0.0,2.6,0.00,significantly lower
+Loan amount,1. <50k,126,5,4.0,1.7,9.0,0.36,significantly lower
+Loan amount,2. 50-100k,179,18,10.1,6.5,15.3,0.90,not significant
+Loan amount,3. 100-200k,192,18,9.4,6.0,14.3,0.84,not significant
+Loan amount,4. 200-400k,159,28,17.6,12.5,24.3,1.58,significantly higher
+Loan amount,5. 400k+,26,7,26.9,13.7,46.1,2.42,significantly higher
+Loan term,12 months,131,11,8.4,4.8,14.4,0.75,not significant
+Loan term,24 months,138,17,12.3,7.8,18.8,1.11,not significant
+Loan term,36 months,130,15,11.5,7.1,18.2,1.04,not significant
+Loan term,48 months,138,16,11.6,7.3,18.0,1.04,not significant
+Loan term,60 months,145,17,11.7,7.5,18.0,1.05,not significant
+Region,Prague,84,7,8.3,4.1,16.2,0.75,not significant
+Region,central Bohemia,90,10,11.1,6.1,19.3,1.00,not significant
+Region,east Bohemia,84,9,10.7,5.7,19.1,0.96,not significant
+Region,north Bohemia,61,1,1.6,0.3,8.7,0.15,significantly lower
+Region,north Moravia,117,18,15.4,10.0,23.0,1.38,not significant
+Region,south Bohemia,60,9,15.0,8.1,26.1,1.35,not significant
+Region,south Moravia,129,13,10.1,6.0,16.5,0.90,not significant
+Region,west Bohemia,57,9,15.8,8.5,27.4,1.42,not significant
+Statement frequency,after_transaction,32,6,18.8,8.9,35.3,1.68,not significant
+Statement frequency,monthly,559,59,10.6,8.3,13.4,0.95,not significant
+Statement frequency,weekly,91,11,12.1,6.9,20.4,1.08,not significant

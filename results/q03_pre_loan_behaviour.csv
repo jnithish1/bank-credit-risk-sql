@@ -1,0 +1,11 @@
+metric,defaulted,repaying_or_repaid,ratio_bad_to_good
+Loans,76.00,606.00,0.13
+"Median avg daily balance, 90d (CZK)",25912.45,42201.69,0.61
+"Median lowest balance, 90d (CZK)",7312.40,23059.20,0.32
+Median monthly income (CZK),17829.82,24396.99,0.73
+Median instalment / income,0.20,0.14,1.40
+Median balance / instalment (x),5.08,11.30,0.45
+Avg income volatility (CV),0.69,0.39,1.78
+% overdrawn in prior 3 months,19.74,0.00,
+"% charged penalty interest, prior 3m",21.05,0.33,63.79
+% with balance < 5x instalment,48.68,9.90,4.92

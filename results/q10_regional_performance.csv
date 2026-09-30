@@ -1,0 +1,78 @@
+district_name,region,accounts,market_penetration,avg_balance,deposits_czk_m,loans,bad_loan_rate_pct,avg_salary,unemployment_rate_96,national_deposit_rank,rank_in_region_by_balance,balance_vs_region_pct
+Hl.m. Praha,Prague,554,4.6,44942,24.9,84,8.3,12541,0.43,1,1,0.0
+Karvina,north Moravia,152,5.3,46074,7.0,24,12.5,10177,7.75,2,1,4.7
+Ostrava - mesto,north Moravia,135,4.2,43502,5.9,20,15.0,10673,5.44,3,7,-1.1
+Brno - mesto,south Moravia,128,3.3,42449,5.4,24,20.8,9897,1.96,4,9,-3.2
+Zlin,south Moravia,92,4.7,43026,4.0,17,5.9,9624,2.31,5,7,-1.9
+Frydek - Mistek,north Moravia,83,3.6,44772,3.7,16,6.3,9893,4.72,6,6,1.8
+Olomouc,north Moravia,88,3.9,41984,3.7,14,14.3,8994,4.79,7,9,-4.6
+Usti nad Orlici,east Bohemia,57,4.1,56103,3.2,14,7.1,8363,3.49,8,1,29.9
+Kolin,central Bohemia,65,6.8,45697,3.0,10,0.0,9307,4.43,9,4,4.2
+Kromeriz,south Moravia,57,5.2,46797,2.7,9,11.1,8444,3.47,10,4,6.7
+Louny,north Bohemia,54,6.3,47178,2.5,13,0.0,8965,8.23,11,2,6.9
+Sumperk,north Moravia,55,4.3,45969,2.5,5,0.0,8369,5.88,12,2,4.5
+Blansko,south Moravia,50,4.6,49688,2.5,7,14.3,8240,3.56,13,1,13.3
+Rychnov nad Kneznou,east Bohemia,53,6.7,46600,2.5,6,16.7,9060,2.44,14,2,7.9
+Nachod,east Bohemia,59,5.2,41829,2.5,6,0.0,8369,2.31,15,7,-3.1
+Mlada Boleslav,central Bohemia,56,5.0,43580,2.4,5,20.0,11277,1.44,16,6,-0.7
+Liberec,north Bohemia,57,3.6,42637,2.4,7,0.0,9198,4.28,17,7,-3.4
+Vyskov,south Moravia,49,5.7,48987,2.4,7,0.0,8288,4.52,18,2,11.7
+Prachatice,south Bohemia,55,10.7,43639,2.4,14,7.1,8402,3.98,19,3,4.6
+Jindrichuv Hradec,south Bohemia,52,5.5,45674,2.4,11,9.1,8427,1.54,20,1,9.5
+Zdar nad Sazavou,south Moravia,53,4.2,44175,2.3,7,0.0,8512,4.12,21,6,0.7
+Opava,north Moravia,56,3.1,41668,2.3,8,37.5,8746,3.74,22,11,-5.3
+Prerov,north Moravia,51,3.7,45607,2.3,4,0.0,8819,5.66,23,3,3.7
+Nymburk,central Bohemia,46,5.7,49265,2.3,9,0.0,8899,3.97,24,1,12.3
+Pardubice,east Bohemia,53,3.3,42744,2.3,10,0.0,9538,1.81,25,4,-1.0
+Brno - venkov,south Moravia,53,3.4,42199,2.2,10,10.0,8743,2.43,26,10,-3.8
+Prostejov,south Moravia,51,4.6,42642,2.2,9,11.1,8441,4.48,27,8,-2.8
+Teplice,north Bohemia,44,3.4,49308,2.2,6,0.0,9317,7.07,28,1,11.7
+Chrudim,east Bohemia,50,4.7,43190,2.2,8,25.0,8254,3.76,29,3,0.0
+Decin,north Bohemia,49,3.7,44056,2.2,4,0.0,8705,7.61,30,6,-0.2
+Tachov,west Bohemia,50,9.7,42561,2.1,8,25.0,8930,4.20,31,6,-2.7
+Usti nad Labem,north Bohemia,45,3.8,46111,2.1,3,0.0,9832,4.48,32,5,4.5
+Hradec Kralove,east Bohemia,49,3.0,42102,2.1,5,20.0,9425,2.50,33,6,-2.5
+Kutna Hora,central Bohemia,48,6.2,42872,2.1,9,33.3,8546,4.02,34,8,-2.3
+Praha - zapad,central Bohemia,48,6.3,42642,2.0,11,9.1,9622,0.59,35,9,-2.8
+Beroun,central Bohemia,50,6.6,40897,2.0,6,33.3,8980,2.21,36,11,-6.8
+Cheb,west Bohemia,50,5.7,40698,2.0,4,0.0,8624,2.66,37,10,-7.0
+Plzen - sever,west Bohemia,45,6.2,45105,2.0,7,0.0,8594,2.01,38,4,3.1
+Pisek,south Bohemia,46,6.5,43849,2.0,3,0.0,8968,3.35,39,2,5.1
+Jesenik,north Moravia,48,11.2,41679,2.0,8,25.0,8173,7.01,40,10,-5.3
+Trutnov,east Bohemia,49,4.0,40819,2.0,6,0.0,8541,2.97,41,9,-5.5
+Melnik,central Bohemia,44,4.6,45450,2.0,6,0.0,9920,2.87,42,5,3.6
+Kladno,central Bohemia,48,3.2,41653,2.0,7,14.3,9753,5.05,43,10,-5.1
+Ceska Lipa,north Bohemia,48,4.6,41637,2.0,6,0.0,9272,3.22,44,8,-5.7
+Svitavy,east Bohemia,48,4.7,41528,2.0,12,25.0,8187,5.45,45,8,-3.8
+Rokycany,west Bohemia,43,9.4,46090,2.0,8,12.5,8843,3.60,46,2,5.3
+Hodonin,south Moravia,41,2.5,47604,2.0,6,0.0,8720,4.50,47,3,8.6
+Tabor,south Bohemia,48,4.6,40370,1.9,7,28.6,9104,2.07,48,6,-3.2
+Benesov,central Bohemia,42,4.7,45899,1.9,6,0.0,8507,1.85,49,3,4.6
+Bruntal,north Moravia,43,4.1,44799,1.9,6,50.0,8110,6.55,50,5,1.8
+Cesky Krumlov,south Bohemia,50,8.5,38455,1.9,7,14.3,9045,3.60,51,8,-7.8
+Plzen - mesto,west Bohemia,45,2.6,42062,1.9,6,16.7,10787,3.09,52,8,-3.9
+Plzen - jih,west Bohemia,39,5.8,48459,1.9,9,0.0,8561,1.29,53,1,10.7
+Praha - vychod,central Bohemia,48,5.2,39022,1.9,5,0.0,10124,0.54,54,12,-11.1
+Havlickuv Brod,east Bohemia,48,5.0,38915,1.9,7,14.3,8388,2.94,55,10,-9.9
+Trebic,south Moravia,45,3.8,40794,1.8,6,16.7,8814,5.74,56,12,-7.0
+Vsetin,north Moravia,40,2.7,45605,1.8,6,0.0,8909,5.56,57,4,3.7
+Karlovy Vary,west Bohemia,42,3.4,43290,1.8,8,25.0,8991,2.01,58,5,-1.1
+Pribram,central Bohemia,42,3.9,43171,1.8,8,12.5,8754,4.31,59,7,-1.6
+Uherske Hradiste,south Moravia,44,3.0,41071,1.8,10,0.0,8544,1.86,60,11,-6.3
+Chomutov,north Bohemia,39,3.1,46170,1.8,9,11.1,9675,7.68,61,4,4.6
+Novy Jicin,north Moravia,42,2.6,42303,1.8,6,16.7,8678,5.57,62,8,-3.8
+Jicin,east Bohemia,41,5.3,42707,1.8,7,0.0,8390,2.89,63,5,-1.1
+Litomerice,north Bohemia,37,3.2,47138,1.7,7,0.0,9065,5.39,64,3,6.8
+Klatovy,west Bohemia,42,4.7,41330,1.7,3,33.3,8554,2.68,65,9,-5.6
+Breclav,south Moravia,44,3.5,39370,1.7,7,14.3,8772,4.98,66,13,-10.2
+Ceske Budejovice,south Bohemia,41,2.3,42060,1.7,8,12.5,10045,1.71,67,4,0.8
+Rakovnik,central Bohemia,37,6.9,46290,1.7,8,12.5,8598,3.26,68,2,5.5
+Domazlice,west Bohemia,36,6.2,45936,1.7,2,50.0,8620,1.25,69,3,5.0
+Pelhrimov,south Bohemia,42,5.7,38856,1.6,4,0.0,8114,2.62,70,7,-6.9
+Jablonec n. Nisou,north Bohemia,43,4.8,37838,1.6,1,0.0,8867,1.21,71,10,-14.3
+Most,north Bohemia,41,3.4,39376,1.6,5,0.0,10446,9.40,72,9,-10.8
+Sokolov,west Bohemia,38,4.0,42083,1.6,2,50.0,9650,3.67,73,7,-3.8
+Znojmo,south Moravia,39,3.4,39157,1.5,6,16.7,8403,5.72,74,14,-10.7
+Strakonice,south Bohemia,36,5.1,40901,1.5,6,50.0,8547,3.64,75,5,-2.0
+Jihlava,south Moravia,32,2.9,45992,1.5,4,0.0,8757,3.95,76,5,4.9
+Semily,east Bohemia,37,4.9,38532,1.4,3,0.0,8208,2.26,77,11,-10.8

@@ -1,0 +1,6 @@
+client_id,gender,age,district,region,role,account_id,customer_since,tenure_months,current_balance,avg_balance_12m,avg_monthly_inflow,avg_monthly_outflow,last_activity_date,card_type,loan_status,loan_amount,penalties_12m,receives_pension
+2823,F,52,Karvina,north Moravia,OWNER,2335,1996-04-04,32,-2776.80,-1063.56,15165.45,15498.88,1998-12-20,,running_in_debt,541200.00,24,f
+12859,F,22,Hl.m. Praha,Prague,OWNER,10451,1993-08-29,64,13695.00,14797.86,16621.03,16955.05,1998-12-13,,running_in_debt,482940.00,0,f
+9846,F,31,Brno - mesto,south Moravia,OWNER,7966,1996-12-27,24,27502.50,39935.98,37202.40,35930.36,1998-12-27,,running_in_debt,473280.00,2,f
+5788,M,36,Olomouc,north Moravia,OWNER,4794,1996-12-18,24,6052.70,4217.10,18089.05,18869.70,1998-12-14,,running_in_debt,465504.00,2,f
+4474,F,34,Beroun,central Bohemia,OWNER,3711,1997-05-08,19,-2376.90,2247.07,6704.42,14912.17,1998-12-12,,running_in_debt,460980.00,10,f

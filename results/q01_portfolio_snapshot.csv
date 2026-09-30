@@ -1,0 +1,2 @@
+clients,accounts,active_accounts_6m,pct_active_6m,total_deposits_czk_m,avg_balance_czk,median_balance_czk,overdrawn_accounts,n_loans,loan_book_czk_m,n_active_loans,n_bad_loans,bad_loan_rate_pct_count,bad_loan_rate_pct_value,card_penetration_pct,loan_penetration_pct
+5369,4500,4484,99.6,197.1,43811,38495,39,682,103.3,448,76,11.1,15.1,19.8,15.2

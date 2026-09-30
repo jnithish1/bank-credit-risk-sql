@@ -1,0 +1,21 @@
+# One-command local environment:  docker compose up -d  &&  make all
+services:
+  db:
+    image: postgres:16
+    container_name: berka-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: berka
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    command: ["postgres", "-c", "shared_buffers=512MB", "-c", "work_mem=64MB",
+              "-c", "maintenance_work_mem=256MB"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d berka"]
+      interval: 5s
+      retries: 10
+volumes:
+  pgdata:

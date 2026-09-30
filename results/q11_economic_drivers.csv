@@ -1,0 +1,11 @@
+outcome,driver,districts,pearson_r,r_squared,strength
+Avg customer balance,Unemployment rate 1996,77,0.159,0.025,weak
+Avg customer balance,"Entrepreneurs per 1,000",77,-0.149,0.022,weak
+Avg customer balance,"Crimes per 1,000",77,-0.063,0.004,none
+Avg customer balance,Urban population %,77,-0.058,0.003,none
+Avg customer balance,Average salary,77,-0.041,0.002,none
+Loan default rate,"Entrepreneurs per 1,000",65,-0.112,0.013,weak
+Loan default rate,Average salary,65,-0.105,0.011,weak
+Loan default rate,"Crimes per 1,000",65,-0.037,0.001,none
+Loan default rate,Unemployment rate 1996,65,0.037,0.001,none
+Loan default rate,Urban population %,65,0.018,0.000,none

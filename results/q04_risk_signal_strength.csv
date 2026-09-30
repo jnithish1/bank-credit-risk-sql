@@ -1,0 +1,13 @@
+rank,feature,information_value,iv_strength,auc,gini,direction
+1,min_balance_90d,1.293,strong,0.801,0.602,lower value = riskier
+2,min_intraday_balance_3m,1.055,strong,0.791,0.582,lower value = riskier
+3,balance_to_instalment,0.953,strong,0.770,0.541,lower value = riskier
+4,avg_daily_balance_90d,0.739,strong,0.749,0.497,lower value = riskier
+5,income_volatility_cv,0.692,strong,0.674,0.348,higher value = riskier
+6,loan_to_monthly_income,0.537,strong,0.684,0.367,higher value = riskier
+7,monthly_instalment,0.461,strong,0.659,0.317,higher value = riskier
+8,instalment_to_income,0.388,strong,0.692,0.383,higher value = riskier
+9,loan_amount,0.318,strong,0.639,0.278,higher value = riskier
+10,monthly_income_3m,0.222,medium,0.607,0.214,lower value = riskier
+11,monthly_transactions,0.144,medium,0.609,0.218,lower value = riskier
+12,monthly_spend_3m,0.050,weak,0.540,0.080,lower value = riskier

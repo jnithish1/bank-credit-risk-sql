@@ -1,0 +1,5 @@
+status_label,loans,pct_due_instalments_paid,avg_arrears_czk,total_arrears_czk_m,pct_with_skipped_month,median_days_to_first_payment,pct_first_payment_after_40d
+finished_ok,203,100.1,180,0.04,0.0,11,0.5
+running_ok,403,102.0,36,0.01,2.0,14,0.2
+running_in_debt,45,84.6,20605,0.93,68.9,24,26.7
+finished_default,31,77.9,32639,1.01,74.2,21,35.5

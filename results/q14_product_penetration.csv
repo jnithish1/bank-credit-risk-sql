@@ -1,0 +1,25 @@
+income_type,card,loan,accounts,pct_of_all_accounts,avg_balance_czk
+other income,card,loan,170,3.8,63595
+other income,card,no loan,704,15.6,63838
+other income,card,ALL,874,19.4,63791
+other income,no card,loan,512,11.4,46056
+other income,no card,no loan,2374,52.8,40793
+other income,no card,ALL,2886,64.1,41727
+other income,ALL,loan,682,15.2,50428
+other income,ALL,no loan,3078,68.4,46064
+other income,ALL,ALL,3760,83.6,46856
+pension income,card,no loan,18,0.4,62436
+pension income,card,ALL,18,0.4,62436
+pension income,no card,no loan,722,16.0,27489
+pension income,no card,ALL,722,16.0,27489
+pension income,ALL,no loan,740,16.4,28339
+pension income,ALL,ALL,740,16.4,28339
+ALL,card,loan,170,3.8,63595
+ALL,card,no loan,722,16.0,63803
+ALL,card,ALL,892,19.8,63763
+ALL,no card,loan,512,11.4,46056
+ALL,no card,no loan,3096,68.8,37691
+ALL,no card,ALL,3608,80.2,38878
+ALL,ALL,loan,682,15.2,50428
+ALL,ALL,no loan,3818,84.8,42629
+ALL,ALL,ALL,4500,100.0,43811
