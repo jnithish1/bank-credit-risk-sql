@@ -1,8 +1,8 @@
-# Retail Bank Analytics Warehouse — PostgreSQL
+# Retail Bank Analytics Warehouse — PostgreSQL + Databricks
 
-**An end-to-end SQL project on 1 million+ real banking transactions.** Raw CSVs are ingested, cleaned and validated, modelled into a star schema, and analysed to answer 15 business questions for credit risk, collections, fraud, marketing and finance teams.
+**An end-to-end SQL project on 1 million+ real banking transactions.** Raw CSVs are ingested, cleaned and validated, modelled into a star schema, and analysed to answer 15 business questions for credit risk, collections, fraud, marketing and finance teams. Every push is rebuilt and quality-checked by GitHub Actions, and the pipeline is also ported to a **Databricks lakehouse on Delta Lake**, with results reconciled against PostgreSQL.
 
-![PostgreSQL 16](https://img.shields.io/badge/PostgreSQL-16-336791) ![Rows](https://img.shields.io/badge/transactions-1.06M-blue) ![Build](https://img.shields.io/badge/full%20rebuild-~31s-green) ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-black)
+[![SQL pipeline CI](https://github.com/jnithish1/bank-credit-risk-sql/actions/workflows/ci.yml/badge.svg)](https://github.com/jnithish1/bank-credit-risk-sql/actions/workflows/ci.yml) ![PostgreSQL 16](https://img.shields.io/badge/PostgreSQL-16-336791) ![Databricks](https://img.shields.io/badge/Databricks-Delta%20Lake-FF3621) ![Rows](https://img.shields.io/badge/transactions-1.06M-blue)
 
 ---
 
@@ -143,7 +143,32 @@ The output of every query is committed in [`results/`](results/), so you can rea
   - Least-privilege roles.
   - A `security_barrier` view that restricts regional analysts to their own region's rows, with entitlements stored as data.
   - A PII-minimised client view (birth year only).
-- **Reproducible.** Docker Compose, a Makefile, and GitHub Actions CI that rebuilds the warehouse on a 10% referentially consistent sample and runs every query on each push.
+- **CI/CD.** GitHub Actions starts a fresh PostgreSQL on every push, rebuilds the warehouse from a 10% referentially consistent sample, runs the data-quality gate and all 15 queries. Any broken query or failed critical check fails the build.
+- **Reproducible.** Docker Compose and a Makefile for one-command local setup.
+
+---
+
+## Databricks lakehouse port
+
+The same pipeline also runs on **Databricks** ([`databricks/berka_lakehouse.py`](databricks/berka_lakehouse.py)), using the medallion pattern on **Delta Lake** and **Unity Catalog**:
+
+```mermaid
+flowchart LR
+    A[8 CSVs in a<br/>Unity Catalog volume] --> B[(Bronze<br/>raw Delta tables)]
+    B --> C[(Silver<br/>typed + constrained,<br/>liquid clustering)]
+    C --> D{DQ gate<br/>results appended to<br/>berka_audit.dq_result}
+    D --> E[(Gold<br/>credit-risk tables)]
+    E --> F{Reconcile with<br/>PostgreSQL results}
+```
+
+- **Bronze:** raw files land as Delta tables with ingestion metadata (source file, load time).
+- **Silver:** typed, English-labelled tables built with reusable Unity Catalog SQL functions. Enforced Delta `CHECK` and `NOT NULL` constraints, informational primary and foreign keys, and **liquid clustering** on the 1M-row transaction table.
+- **Data-quality gate:** the critical checks from the PostgreSQL build, with results appended to a Delta audit table on every run.
+- **Gold:** the headline credit-risk findings (default rate by loan size, pre-approval warning signs).
+- **Reconciliation:** the notebook fails unless its row counts and gold results match the PostgreSQL warehouse exactly.
+- **Delta time travel:** querying earlier table versions with `VERSION AS OF`.
+
+Setup steps for Databricks Free Edition are in [`databricks/README.md`](databricks/README.md).
 
 ---
 
@@ -183,6 +208,7 @@ Full rebuild takes about 31 seconds. All 15 queries together take about 3 second
 │   └── 07_security/    roles, row-restricted view, PII masking
 ├── scripts/            run_pipeline.sh, run_analysis.sh, make_sample.py, make_charts.py
 ├── results/            committed CSV output of every query
+├── databricks/         Delta Lake medallion port (notebook + setup guide)
 ├── docs/               data dictionary, performance notes, charts
 ├── data/sample/        10% sample used by CI
 ├── docker-compose.yml  Makefile  .github/workflows/ci.yml
